@@ -11,7 +11,7 @@ import csv, json, os, html
 from urllib.parse import quote
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(BASE, "..", "sitio")
+OUT = os.path.join(BASE, "..", "..")
 CSV = os.path.join(BASE, "..", "datos", "productos.csv")
 
 EMPRESA = {
