@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Productos · El Cocinerito</title>
+<meta name="description" content="Catálogo de condimentos, especias, hierbas, sazonadores, repostería, línea saludable y Línea Gourmet El Cocinerito.">
+<link rel="icon" href="img/logo-verde.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="sr saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="envoltura">
+    <a class="marca" href="index.html" aria-label="El Cocinerito, inicio"><img src="img/logo-crema.webp" width="1200" height="511" alt="Industria de Alimentos El Cocinerito"></a>
+    <button class="abrir-menu" aria-expanded="false" aria-controls="menu">Menú <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    <ul class="menu" id="menu"><li><a href="catalogo.html" aria-current="page">Productos</a></li><li><a href="linea-gourmet.html">Línea Gourmet</a></li><li><a href="empresas.html">Para empresas</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="contacto.html">Contacto</a></li></ul>
+    <a class="boton boton--crema boton--cab" href="https://wa.me/573148870121?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20productos%20El%20Cocinerito." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M9 8.5c0 3.6 2.9 6.5 6.5 6.5l1-1.6-2-1-1 .8a4 4 0 0 1-2.7-2.7l.8-1-1-2Z" fill="currentColor" stroke-width="1"/></svg><span>WhatsApp</span></a>
+  </div>
+</header>
+<main id="contenido">
+<section class="cabeza-verde" aria-labelledby="t-cat">
+  <div class="envoltura cabeza-verde__rejilla">
+    <div>
+      <h1 id="t-cat">Productos</h1>
+      <p class="portada__texto">Un amplio portafolio en bolsas, frascos y tarros. Abre cualquier producto para ver sus presentaciones y gramajes.</p>
+    </div>
+    <div class="cabeza-verde__bolsas" aria-hidden="true"><img class="" src="img/canela-molida.webp" alt="Canela Molida El Cocinerito" decoding="async"><img class="" src="img/adobo-6-alinos.webp" alt="Adobo 6 Aliños El Cocinerito" decoding="async"><img class="" src="img/oregano.webp" alt="Orégano Entero El Cocinerito" decoding="async"></div>
+  </div>
+</section>
+<div class="filtros" id="filtros">
+  <div class="envoltura">
+    <div class="filtros__fila filtros__lineas" role="group" aria-label="Línea"><button class="filtro" type="button" data-linea="" aria-pressed="true">Todas</button><button class="filtro" type="button" data-linea="hierbas" aria-pressed="false"><i class="punto" style="--c:#0B4A36" aria-hidden="true"></i>Hierbas</button><button class="filtro" type="button" data-linea="sazonadores" aria-pressed="false"><i class="punto" style="--c:#C1191E" aria-hidden="true"></i>Sazonadores</button><button class="filtro" type="button" data-linea="tradicionales" aria-pressed="false"><i class="punto" style="--c:#BF8107" aria-hidden="true"></i>Tradicionales</button><button class="filtro" type="button" data-linea="reposteria" aria-pressed="false"><i class="punto" style="--c:#2B1E67" aria-hidden="true"></i>Repostería</button><button class="filtro" type="button" data-linea="saludable" aria-pressed="false"><i class="punto" style="--c:#EAE7DC;--b:#3F5815" aria-hidden="true"></i>Saludable</button><button class="filtro" type="button" data-linea="gourmet" aria-pressed="false"><i class="punto" style="--c:#151515" aria-hidden="true"></i>Línea Gourmet</button></div>
+    <div class="filtros__fila" role="group" aria-label="Presentación"><span class="filtros__rotulo">Presentación</span><button class="filtro filtro--chico" type="button" data-presentacion="" aria-pressed="true">Todas</button><button class="filtro filtro--chico" type="button" data-presentacion="bolsa" aria-pressed="false">Bolsas</button><button class="filtro filtro--chico" type="button" data-presentacion="envase" aria-pressed="false">Frascos y tarros</button>
+      <label class="buscar-caja"><span class="sr">Buscar producto</span><input class="buscar" type="search" id="buscar" placeholder="Buscar producto"></label>
+    </div>
+  </div>
+</div>
+<p class="sr" id="contador" aria-live="polite"></p>
+<div id="rejilla"><section class="bloque" id="bolsas" data-grupo="bolsas" aria-labelledby="b-bolsas">
+  <div class="bloque__cabeza"><div class="envoltura"><h2 id="b-bolsas">Bolsas</h2><p>Hierbas, sazonadores, especias, repostería y línea saludable en bolsa.</p></div></div>
+  <section class="grupo" id="linea-hierbas" data-grupo="hierbas" style="--c:#0B4A36;--acento:#0B4A36;--tinte:#DFEAE3" aria-labelledby="g-hierbas">
+    <div class="envoltura">
+      <div class="grupo__cabeza"><span class="grupo__sello" aria-hidden="true"></span><h3 id="g-hierbas">Hierbas</h3><p>Hierbas secas, enteras y molidas, para sopas, carnes y salsas.</p></div>
+      <ul class="rejilla"><li class="prod aparece" style="--i:0;--c:#0B4A36;--acento:#0B4A36;--tinte:#DFEAE3" data-linea="hierbas" data-presentaciones="bolsa" data-nombre="adobo 7 hierbas"><a class="prod__a" href="producto-adobo-7-hierbas.html" data-familia="adobo-7-hierbas"><span class="prod__foto"><img class="prod-img" src="img/adobo-7-hierbas.webp" alt="Adobo 7 Hierbas El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Adobo 7 Hierbas</strong><span class="prod__dato">Bolsa · 60 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:1;--c:#0B4A36;--acento:#0B4A36;--tinte:#DFEAE3" data-linea="hierbas" data-presentaciones="bolsa" data-nombre="chimichurry"><a class="prod__a" href="producto-chimichurry.html" data-familia="chimichurry"><span class="prod__foto"><img class="prod-img" src="img/chimichurry.webp" alt="Chimichurry El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Chimichurry</strong><span class="prod__dato">Bolsa · 15 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:2;--c:#0B4A36;--acento:#0B4A36;--tinte:#DFEAE3" data-linea="hierbas" data-presentaciones="bolsa" data-nombre="laurel molido"><a class="prod__a" href="producto-laurel-molido.html" data-familia="laurel-molido"><span class="prod__foto"><img class="prod-img" src="img/laurel-molido.webp" alt="Laurel Molido El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Laurel Molido</strong><span class="prod__dato">Bolsa · 15 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:3;--c:#0B4A36;--acento:#0B4A36;--tinte:#DFEAE3" data-linea="hierbas" data-presentaciones="bolsa" data-nombre="orégano entero"><a class="prod__a" href="producto-oregano-entero.html" data-familia="oregano-entero"><span class="prod__foto"><img class="prod-img" src="img/oregano.webp" alt="Orégano Entero El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Orégano Entero</strong><span class="prod__dato">Bolsa · 10 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:0;--c:#0B4A36;--acento:#0B4A36;--tinte:#DFEAE3" data-linea="hierbas" data-presentaciones="bolsa" data-nombre="perejil"><a class="prod__a" href="producto-perejil.html" data-familia="perejil"><span class="prod__foto"><img class="prod-img" src="img/perejil.webp" alt="Perejil El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Perejil</strong><span class="prod__dato">Bolsa · 10 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li></ul>
+    </div>
+  </section><section class="grupo" id="linea-sazonadores" data-grupo="sazonadores" style="--c:#C1191E;--acento:#A3151A;--tinte:#F7E1DC" aria-labelledby="g-sazonadores">
+    <div class="envoltura">
+      <div class="grupo__cabeza"><span class="grupo__sello" aria-hidden="true"></span><h3 id="g-sazonadores">Sazonadores</h3><p>Adobos y mezclas listas para darle sazón a cualquier preparación.</p></div>
+      <ul class="rejilla"><li class="prod aparece" style="--i:0;--c:#C1191E;--acento:#A3151A;--tinte:#F7E1DC" data-linea="sazonadores" data-presentaciones="bolsa" data-nombre="ablandacarnes"><a class="prod__a" href="producto-ablandacarnes.html" data-familia="ablandacarnes"><span class="prod__foto"><img class="prod-img" src="img/ablandacarnes.webp" alt="Ablandacarnes El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Ablandacarnes</strong><span class="prod__dato">Bolsa · 15 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:1;--c:#C1191E;--acento:#A3151A;--tinte:#F7E1DC" data-linea="sazonadores" data-presentaciones="bolsa" data-nombre="adobo 6 aliños"><a class="prod__a" href="producto-adobo-6-alinos.html" data-familia="adobo-6-alinos"><span class="prod__foto"><img class="prod-img" src="img/adobo-6-alinos.webp" alt="Adobo 6 Aliños El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Adobo 6 Aliños</strong><span class="prod__dato">Bolsa · 60 g, 100 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:2;--c:#C1191E;--acento:#A3151A;--tinte:#F7E1DC" data-linea="sazonadores" data-presentaciones="bolsa" data-nombre="ajo molido"><a class="prod__a" href="producto-ajo-molido.html" data-familia="ajo-molido"><span class="prod__foto"><img class="prod-img" src="img/ajo-molido-bolsa.webp" alt="Ajo Molido El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Ajo Molido</strong><span class="prod__dato">Bolsa · 15 g, 60 g, 100 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li></ul>
+    </div>
+  </section><section class="grupo" id="linea-tradicionales" data-grupo="tradicionales" style="--c:#BF8107;--acento:#7F5604;--tinte:#F6E8CC" aria-labelledby="g-tradicionales">
+    <div class="envoltura">
+      <div class="grupo__cabeza"><span class="grupo__sello" aria-hidden="true"></span><h3 id="g-tradicionales">Tradicionales</h3><p>Canela, clavo, comino, color y las especias de toda la vida.</p></div>
+      <ul class="rejilla"><li class="prod aparece" style="--i:0;--c:#BF8107;--acento:#7F5604;--tinte:#F6E8CC" data-linea="tradicionales" data-presentaciones="bolsa" data-nombre="canela molida"><a class="prod__a" href="producto-canela-molida.html" data-familia="canela-molida"><span class="prod__foto"><img class="prod-img" src="img/canela-molida.webp" alt="Canela Molida El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Canela Molida</strong><span class="prod__dato">Bolsa · 15 g, 50 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:1;--c:#BF8107;--acento:#7F5604;--tinte:#F6E8CC" data-linea="tradicionales" data-presentaciones="bolsa" data-nombre="comino molido"><a class="prod__a" href="producto-comino-molido.html" data-familia="comino-molido"><span class="prod__foto"><img class="prod-img" src="img/comino-molido.webp" alt="Comino Molido El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Comino Molido</strong><span class="prod__dato">Bolsa · 15 g, 60 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:2;--c:#BF8107;--acento:#7F5604;--tinte:#F6E8CC" data-linea="tradicionales" data-presentaciones="bolsa" data-nombre="paprika"><a class="prod__a" href="producto-paprika.html" data-familia="paprika"><span class="prod__foto"><img class="prod-img" src="img/paprika.webp" alt="Paprika El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Paprika</strong><span class="prod__dato">Bolsa · 15 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li></ul>
+    </div>
+  </section><section class="grupo" id="linea-reposteria" data-grupo="reposteria" style="--c:#2B1E67;--acento:#2B1E67;--tinte:#E4E1F0" aria-labelledby="g-reposteria">
+    <div class="envoltura">
+      <div class="grupo__cabeza"><span class="grupo__sello" aria-hidden="true"></span><h3 id="g-reposteria">Repostería</h3><p>Ingredientes para postres, panes y preparaciones dulces.</p></div>
+      <ul class="rejilla"><li class="prod aparece" style="--i:0;--c:#2B1E67;--acento:#2B1E67;--tinte:#E4E1F0" data-linea="reposteria" data-presentaciones="bolsa" data-nombre="ajonjolí"><a class="prod__a" href="producto-ajonjoli.html" data-familia="ajonjoli"><span class="prod__foto"><img class="prod-img" src="img/ajonjoli-bolsa.webp" alt="Ajonjolí El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Ajonjolí</strong><span class="prod__dato">Bolsa · 100 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:1;--c:#2B1E67;--acento:#2B1E67;--tinte:#E4E1F0" data-linea="reposteria" data-presentaciones="bolsa" data-nombre="almendra"><a class="prod__a" href="producto-almendra.html" data-familia="almendra"><span class="prod__foto"><img class="prod-img" src="img/almendra.webp" alt="Almendra El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Almendra</strong><span class="prod__dato">Bolsa · 100 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:2;--c:#2B1E67;--acento:#2B1E67;--tinte:#E4E1F0" data-linea="reposteria" data-presentaciones="bolsa" data-nombre="arándanos"><a class="prod__a" href="producto-arandanos.html" data-familia="arandanos"><span class="prod__foto"><img class="prod-img" src="img/arandanos.webp" alt="Arándanos El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Arándanos</strong><span class="prod__dato">Bolsa · 50 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:3;--c:#2B1E67;--acento:#2B1E67;--tinte:#E4E1F0" data-linea="reposteria" data-presentaciones="bolsa" data-nombre="ciruelas pasas"><a class="prod__a" href="producto-ciruelas-pasas.html" data-familia="ciruelas-pasas"><span class="prod__foto"><img class="prod-img" src="img/ciruelas-pasas.webp" alt="Ciruelas Pasas El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Ciruelas Pasas</strong><span class="prod__dato">Bolsa · 100 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:0;--c:#2B1E67;--acento:#2B1E67;--tinte:#E4E1F0" data-linea="reposteria" data-presentaciones="bolsa" data-nombre="pasas"><a class="prod__a" href="producto-pasas.html" data-familia="pasas"><span class="prod__foto"><img class="prod-img" src="img/pasas.webp" alt="Pasas El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Pasas</strong><span class="prod__dato">Bolsa · 100 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li></ul>
+    </div>
+  </section><section class="grupo" id="linea-saludable" data-grupo="saludable" style="--c:#EAE7DC;--acento:#3F5815;--tinte:#E9ECD9" aria-labelledby="g-saludable">
+    <div class="envoltura">
+      <div class="grupo__cabeza"><span class="grupo__sello" aria-hidden="true"></span><h3 id="g-saludable">Saludable</h3><p>Semillas para sumar a la alimentación diaria.</p></div>
+      <ul class="rejilla"><li class="prod aparece" style="--i:0;--c:#EAE7DC;--acento:#3F5815;--tinte:#E9ECD9" data-linea="saludable" data-presentaciones="bolsa" data-nombre="linaza molida"><a class="prod__a" href="producto-linaza-molida.html" data-familia="linaza-molida"><span class="prod__foto"><img class="prod-img" src="img/linaza-molida.webp" alt="Linaza Molida El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Linaza Molida</strong><span class="prod__dato">Bolsa · 250 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li></ul>
+    </div>
+  </section>
+</section><section class="bloque bloque--envases" id="frascos" data-grupo="envases" aria-labelledby="b-envases">
+  <div class="bloque__cabeza"><div class="envoltura"><h2 id="b-envases">Frascos y tarros</h2><p>Frascos, frascos molino y tarros para la cocina, la mesa y el negocio.</p></div></div>
+  <div class="envoltura"><ul class="rejilla"><li class="prod aparece" style="--i:0;--c:#C1191E;--acento:#A3151A;--tinte:#F7E1DC" data-linea="sazonadores" data-presentaciones="envase" data-nombre="ajo molido"><a class="prod__a" href="producto-ajo-molido-frasco.html" data-familia="ajo-molido-frasco"><span class="prod__foto"><img class="prod-img" src="img/ajo-frasco.webp" alt="Ajo Molido El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Ajo Molido</strong><span class="prod__dato"><i class="punto" style="--c:#C1191E" aria-hidden="true"></i>Sazonadores · Frasco · 70 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:1;--c:#2B1E67;--acento:#2B1E67;--tinte:#E4E1F0" data-linea="reposteria" data-presentaciones="envase" data-nombre="ajonjolí"><a class="prod__a" href="producto-ajonjoli-tarro.html" data-familia="ajonjoli-tarro"><span class="prod__foto"><img class="prod-img" src="img/ajonjoli-frasco.webp" alt="Ajonjolí El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Ajonjolí</strong><span class="prod__dato"><i class="punto" style="--c:#2B1E67" aria-hidden="true"></i>Repostería · Tarro · 500 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:2;--c:#151515;--acento:#151515;--tinte:#E7E4DE" data-linea="gourmet" data-presentaciones="envase" data-nombre="mix pimienta"><a class="prod__a" href="producto-mix-pimienta.html" data-familia="mix-pimienta"><span class="prod__foto"><img class="prod-img" src="img/mix-pimienta.webp" alt="Mix Pimienta El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Mix Pimienta</strong><span class="prod__dato"><i class="punto" style="--c:#151515" aria-hidden="true"></i>Línea Gourmet · Frasco · 50 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li><li class="prod aparece" style="--i:3;--c:#151515;--acento:#151515;--tinte:#E7E4DE" data-linea="gourmet" data-presentaciones="envase" data-nombre="pimienta negra entera"><a class="prod__a" href="producto-pimienta-negra-entera.html" data-familia="pimienta-negra-entera"><span class="prod__foto"><img class="prod-img" src="img/pimienta-negra-entera.webp" alt="Pimienta Negra Entera El Cocinerito" loading="lazy" decoding="async"></span><strong class="prod__nombre">Pimienta Negra Entera</strong><span class="prod__dato"><i class="punto" style="--c:#151515" aria-hidden="true"></i>Línea Gourmet · Frasco · 50 g</span><span class="prod__ver" aria-hidden="true">Ver presentaciones</span></a></li></ul></div>
+</section></div>
+<div class="envoltura"><p class="vacio" id="vacio" hidden>No encontramos productos con esos filtros. Prueba con otra línea, otra presentación u otra búsqueda.</p></div>
+
+</main>
+<div class="franja franja--pie" aria-hidden="true"></div>
+<footer class="pie">
+  <div class="envoltura">
+    <div class="pie__rejilla">
+      <div class="pie__marca"><img src="img/logo-crema.webp" width="1200" height="511" alt="El Cocinerito" loading="lazy"><p>Sazón colombiana desde 1984.</p></div>
+      <div class="pie__col">
+        <h2 class="pie__titulo">Planta de producción</h2>
+        <p>Zona Industrial El Paraíso, Manzana C8, Lote 13<br>Santander de Quilichao, Cauca</p>
+      </div>
+      <div class="pie__col">
+        <h2 class="pie__titulo">Área comercial</h2>
+        <p><a href="mailto:jefecomercial@cocinerito.com">jefecomercial@cocinerito.com</a></p>
+        <p><a class="pie__wa" href="https://wa.me/573148870121?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20productos%20El%20Cocinerito." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z"/><path d="M9 8.5c0 3.6 2.9 6.5 6.5 6.5l1-1.6-2-1-1 .8a4 4 0 0 1-2.7-2.7l.8-1-1-2Z" fill="currentColor" stroke-width="1"/></svg> +57 314 887 0121</a></p>
+      </div>
+      <nav class="pie__col" aria-label="Pie de página"><h2 class="pie__titulo">Sitio</h2><ul><li><a href="index.html">Inicio</a></li><li><a href="catalogo.html">Productos</a></li><li><a href="linea-gourmet.html">Línea Gourmet</a></li><li><a href="empresas.html">Para empresas</a></li><li><a href="nosotros.html">Nosotros</a></li><li><a href="contacto.html">Contacto</a></li></ul></nav>
+    </div>
+    <div class="pie__abajo">
+      <p>© 2026 Industria de Alimentos El Cocinerito S.A.S. · NIT 900.445.789-7</p>
+      <ul>
+        <li><a href="legal.html#datos">Política de tratamiento de datos</a></li>
+        <li><a href="legal.html#aviso">Aviso de privacidad</a></li>
+        <li><a href="legal.html#terminos">Términos de uso</a></li>
+        <li><a href="legal.html#cookies">Cookies</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<dialog class="dialogo" id="dialogo" aria-labelledby="dlg-titulo">
+  <div class="dialogo__caja">
+    <button class="dialogo__cerrar" type="button" data-cerrar aria-label="Cerrar"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <div class="dialogo__foto" data-dlg-foto></div>
+    <div class="dialogo__info">
+      <p class="dialogo__linea" data-dlg-linea></p>
+      <h2 id="dlg-titulo" data-dlg-nombre></h2>
+      <h3 class="dialogo__sub">Presentaciones y gramajes</h3>
+      <div data-dlg-variantes></div>
+      <p class="aviso">Imagen de referencia. La información oficial del producto es la que figura en su etiqueta.</p>
+    </div>
+  </div>
+</dialog>
+<script src="js/datos.js"></script>
+<script src="js/sitio.js"></script>
+</body>
+</html>

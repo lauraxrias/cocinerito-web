@@ -1,0 +1,60 @@
+id,nombre,linea,presentacion,envase,gramajes,foto
+adobo-7-hierbas,Adobo 7 Hierbas,hierbas,bolsa,Bolsa,60 g,img/adobo-7-hierbas.webp
+adobo-7-hierbas-frasco,Adobo 7 Hierbas,hierbas,frasco,Frasco,50 g,
+albahaca-entera,Albahaca Entera,hierbas,bolsa,Bolsa,10 g,
+albahaca-molida,Albahaca Molida,hierbas,bolsa,Bolsa,15 g,
+chimichurry,Chimichurry,hierbas,bolsa,Bolsa,15 g,img/chimichurry.webp
+cilantro,Cilantro,hierbas,bolsa,Bolsa,10 g,
+estragon,Estragón,hierbas,bolsa,Bolsa,5 g,
+guasca,Guasca,hierbas,bolsa,Bolsa,10 g,
+laurel-hojas,Laurel Hojas,hierbas,bolsa,Bolsa,10 g,
+laurel-molido,Laurel Molido,hierbas,bolsa,Bolsa,15 g,img/laurel-molido.webp
+oregano-entero,Orégano Entero,hierbas,bolsa,Bolsa,10 g,img/oregano.webp
+oregano-molido,Orégano Molido,hierbas,bolsa,Bolsa,15 g,
+perejil,Perejil,hierbas,bolsa,Bolsa,10 g,img/perejil.webp
+romero,Romero,hierbas,bolsa,Bolsa,10 g,
+tomillo-entero,Tomillo Entero,hierbas,bolsa,Bolsa,10 g,
+tomillo-molido,Tomillo Molido,hierbas,bolsa,Bolsa,15 g,
+ablandacarnes,Ablandacarnes,sazonadores,bolsa,Bolsa,15 g,img/ablandacarnes.webp
+adobo-6-alinos,Adobo 6 Aliños,sazonadores,bolsa,Bolsa,60 g; 100 g,img/adobo-6-alinos.webp
+ajo-molido,Ajo Molido,sazonadores,bolsa,Bolsa,15 g; 60 g; 100 g,img/ajo-molido-bolsa.webp
+ajo-molido-frasco,Ajo Molido,sazonadores,frasco,Frasco,70 g,img/ajo-frasco.webp
+trisabor,Trisabor,sazonadores,bolsa,Bolsa,20 g; 50 g,
+achiote-entero,Achiote Entero,tradicionales,bolsa,Bolsa,30 g,
+achiote-molido,Achiote Molido,tradicionales,bolsa,Bolsa,30 g,
+anis-estrellado,Anís Estrellado,tradicionales,bolsa,Bolsa,10 g; 25 g,
+bicarbonato,Bicarbonato,tradicionales,bolsa,Bolsa,30 g,
+canela-astilla,Canela Astilla,tradicionales,bolsa,Bolsa,12 g,
+canela-entera-tarro,Canela Entera,tradicionales,tarro,Tarro,200 g,
+canela-extra,Canela Extra,tradicionales,bolsa,Bolsa,40 g,
+canela-gigante,Canela Gigante,tradicionales,bolsa,Bolsa,20 g,
+canela-molida,Canela Molida,tradicionales,bolsa,Bolsa,15 g; 50 g,img/canela-molida.webp
+canela-molida-frasco,Canela Molida,tradicionales,frasco,Frasco,50 g,
+canela-molida-tarro,Canela Molida,tradicionales,tarro,Tarro,400 g,
+canela-super,Canela Super,tradicionales,bolsa,Bolsa,20 g,
+clavo-de-olor,Clavo de Olor,tradicionales,bolsa,Bolsa,250 g,
+clavo-de-olor-entero,Clavo de Olor Entero,tradicionales,bolsa,Bolsa,5 g,
+clavo-de-olor-molido,Clavo de Olor Molido,tradicionales,bolsa,Bolsa,5 g,
+color,Color,tradicionales,bolsa,Bolsa,15 g,
+color-con-achiote,Color con Achiote,tradicionales,bolsa,Bolsa,60 g; 100 g,
+color-de-raiz,Color de Raíz,tradicionales,bolsa,Bolsa,60 g,
+comino-grano,Comino Grano,tradicionales,bolsa,Bolsa,15 g,
+comino-molido,Comino Molido,tradicionales,bolsa,Bolsa,15 g; 60 g,img/comino-molido.webp
+curry,Curry,tradicionales,bolsa,Bolsa,15 g,
+maxicanela,Maxicanela,tradicionales,bolsa,Bolsa,30 g,
+nuez-moscada-entera,Nuez Moscada Entera,tradicionales,bolsa,Bolsa,12 g,
+nuez-moscada-molida,Nuez Moscada Molida,tradicionales,bolsa,Bolsa,12 g,
+paprika,Paprika,tradicionales,bolsa,Bolsa,15 g,img/paprika.webp
+pimienta-dulce,Pimienta Dulce,tradicionales,bolsa,Bolsa,10 g,
+pimienta-entera,Pimienta Entera,tradicionales,bolsa,Bolsa,250 g,
+pimienta-grano,Pimienta Grano,tradicionales,bolsa,Bolsa,15 g,
+pimienta-molida,Pimienta Molida,tradicionales,bolsa,Bolsa,15 g; 60 g,
+ajonjoli-bolsa,Ajonjolí,reposteria,bolsa,Bolsa,100 g,img/ajonjoli-bolsa.webp
+ajonjoli,Ajonjolí,reposteria,tarro,Tarro,500 g,img/ajonjoli-frasco.webp
+almendra,Almendra,reposteria,bolsa,Bolsa,100 g,img/almendra.webp
+arandanos,Arándanos,reposteria,bolsa,Bolsa,50 g,img/arandanos.webp
+ciruelas-pasas,Ciruelas Pasas,reposteria,bolsa,Bolsa,100 g,img/ciruelas-pasas.webp
+pasas,Pasas,reposteria,bolsa,Bolsa,100 g,img/pasas.webp
+linaza-molida,Linaza Molida,saludable,bolsa,Bolsa,250 g,img/linaza-molida.webp
+mix-pimienta,Mix Pimienta,gourmet,frasco,Frasco molino de vidrio,50 g,img/mix-pimienta.webp
+pimienta-negra-entera,Pimienta Negra Entera,gourmet,frasco,Frasco molino grande de plástico,50 g,img/pimienta-negra-entera.webp
